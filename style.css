@@ -1,0 +1,45 @@
+.namazvakti {
+    padding: 100px 0;
+    position: relative;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bolum-baslik {
+    text-align: center;
+}
+
+.bolum-baslik span {
+    color: #db9e30;
+}
+
+.bolum-baslik h2 {
+    color: #fff;
+    font-size: 48px;
+    font-family: 'Marmelad', sans-serif;
+    font-weight: 400;
+}
+
+.bolum-baslik span {
+    color: #db9e30;
+}
+
+.namazvakti .vakitler {
+    color: #fff;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.namazvakti .vakit_ad:after {
+    content: "";
+    display: block;
+    height: 9px;
+    background-image: url(images/prayer-head.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px 0;
+}
